@@ -11,16 +11,16 @@
 ## Phase 1: Project Foundation (Day 1)
 
 ### T-001: Repository & Project Scaffold
-- [ ] T-001.1: Create GitHub repository `ceylonaire` with `.gitignore` (Node, Next.js, env)
-- [ ] T-001.2: Initialize Next.js 15 project with App Router, TypeScript strict mode, pnpm
-- [ ] T-001.3: Configure `tsconfig.json` with strict mode, path aliases (`@/` → `src/`)
-- [ ] T-001.4: Install and configure Tailwind CSS 4 with custom theme (brand colors, fonts)
-- [ ] T-001.5: Install and configure Biome (`biome.json`) for linting + formatting
-- [ ] T-001.6: Set up shadcn/ui with required components: button, input, select, dialog, dropdown-menu, slider, tabs, card, badge, separator, tooltip, sheet, popover
-- [ ] T-001.7: Create the full directory structure as defined in CLAUDE.md
-- [ ] T-001.8: Copy `CLAUDE.md`, `docs/SRS.md`, `docs/TASKS.md` into repository
-- [ ] T-001.9: Create `.env.local.example` with all required environment variables (no values)
-- [ ] T-001.10: Create initial `README.md` with setup instructions
+- [x] T-001.1: Create GitHub repository `ceylonaire` with `.gitignore` (Node, Next.js, env)
+- [x] T-001.2: Initialize Next.js 15 project with App Router, TypeScript strict mode, npm
+- [x] T-001.3: Configure `tsconfig.json` with strict mode, path aliases (`@/` → `src/`)
+- [x] T-001.4: Install and configure Tailwind CSS 4 with custom theme (brand colors, fonts)
+- [x] T-001.5: Install and configure Biome (`biome.json`) for linting + formatting
+- [x] T-001.6: Set up shadcn/ui with required components: button, input, select, dialog, dropdown-menu, slider, tabs, card, badge, separator, tooltip, sheet, popover
+- [x] T-001.7: Create the full directory structure as defined in CLAUDE.md
+- [x] T-001.8: Copy `CLAUDE.md`, `docs/SRS.md`, `docs/TASKS.md` into repository
+- [x] T-001.9: Create `.env.local.example` with all required environment variables (no values)
+- [x] T-001.10: Create initial `README.md` with setup instructions
 
 ### T-002: Design System & Brand Foundation
 - [ ] T-002.1: Define CSS custom properties in `globals.css` for brand colors (layla.ai-inspired lite palette): primary (#2A182E), primary-light (#4A2E54), lavender (#CDB3FF), lavender-light (#E8DCFF), surface (#EAE8EA), background (#FFFFFF), dark (#1A1A1A)
