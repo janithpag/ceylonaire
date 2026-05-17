@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2A182E"/>
+      <stop offset="100%" stop-color="#4A2E54"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="600" y1="0" x2="600" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#CDB3FF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#CDB3FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="980" cy="120" r="200" fill="#CDB3FF" fill-opacity="0.06"/>
+  <circle cx="1050" cy="80" r="120" fill="#CDB3FF" fill-opacity="0.05"/>
+  <circle cx="180" cy="520" r="160" fill="#CDB3FF" fill-opacity="0.04"/>
+
+  <!-- Logo mark -->
+  <rect x="80" y="80" width="64" height="64" rx="16" fill="#CDB3FF" fill-opacity="0.15"/>
+  <text x="112" y="128" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#CDB3FF" text-anchor="middle">C</text>
+
+  <!-- Wordmark -->
+  <text x="80" y="340" font-family="Georgia, serif" font-size="80" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Ceylonaire</text>
+
+  <!-- Tagline -->
+  <text x="80" y="405" font-family="system-ui, sans-serif" font-size="32" fill="#CDB3FF" font-weight="400">AI-Powered Sri Lanka Travel Itineraries</text>
+
+  <!-- Divider -->
+  <rect x="80" y="445" width="120" height="3" rx="2" fill="#CDB3FF" fill-opacity="0.4"/>
+
+  <!-- Sub-tagline -->
+  <text x="80" y="500" font-family="system-ui, sans-serif" font-size="24" fill="#E8DCFF" fill-opacity="0.7">Plan your perfect trip with Ceyla, your AI travel companion.</text>
+</svg>
