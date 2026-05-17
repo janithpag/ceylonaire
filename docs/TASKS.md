@@ -87,31 +87,31 @@
 ## Phase 3: Onboarding Form (Day 3)
 
 ### T-008: Form Infrastructure
-- [ ] T-008.1: Create `src/lib/types/preferences.ts` with Zod schema for all onboarding fields (foreign + local variants)
-- [ ] T-008.2: Build `src/components/onboarding/onboarding-form.tsx` — multi-step container with state management (useState for current step, form data)
-- [ ] T-008.3: Build `src/components/onboarding/progress-bar.tsx` — step indicator with progress percentage
-- [ ] T-008.4: Implement localStorage persistence for form state (save on every change, restore on mount)
-- [ ] T-008.5: Build navigation: Back button, Continue button (disabled until valid), Generate button on final step
+- [x] T-008.1: Create `src/lib/types/preferences.ts` with Zod schema for all onboarding fields (foreign + local variants)
+- [x] T-008.2: Build `src/components/onboarding/onboarding-form.tsx` — multi-step container with state management (useState for current step, form data)
+- [x] T-008.3: Build `src/components/onboarding/progress-bar.tsx` — step indicator with progress percentage
+- [x] T-008.4: Implement localStorage persistence for form state (save on every change, restore on mount)
+- [x] T-008.5: Build navigation: Back button, Continue button (disabled until valid), Generate button on final step
 
 ### T-009: Form Steps — Foreign Visitor Flow
-- [ ] T-009.1: Build `step-user-type.tsx` — two large cards: "I'm visiting Sri Lanka" / "I'm a local traveler"
-- [ ] T-009.2: Build `step-duration.tsx` — quick-select buttons (3, 5, 7, 10, 14 days) + range slider (1-21)
-- [ ] T-009.3: Build `step-budget.tsx` — three tier cards (Budget/Mid-range/Luxury) with $/day ranges and descriptions
-- [ ] T-009.4: Build `step-interests.tsx` — multi-select chips with emojis for 12 interest categories
-- [ ] T-009.5: Build `step-group.tsx` — 2x2 grid cards (Solo/Couple/Family/Friends) with icons
-- [ ] T-009.6: Build `step-details.tsx` — starting city dropdown, must-visit free text, special requirements textarea
-- [ ] T-009.7: Build `step-summary.tsx` — review all selections with edit links per section, "Generate My Itinerary" gold CTA
+- [x] T-009.1: Build `step-user-type.tsx` — two large cards: "I'm visiting Sri Lanka" / "I'm a local traveler"
+- [x] T-009.2: Build `step-duration.tsx` — quick-select buttons (3, 5, 7, 10, 14 days) + range slider (1-21)
+- [x] T-009.3: Build `step-budget.tsx` — three tier cards (Budget/Mid-range/Luxury) with $/day ranges and descriptions
+- [x] T-009.4: Build `step-interests.tsx` — multi-select chips with emojis for 12 interest categories
+- [x] T-009.5: Build `step-group.tsx` — 2x2 grid cards (Solo/Couple/Family/Friends) with icons
+- [x] T-009.6: Build `step-details.tsx` — starting city dropdown, must-visit free text, special requirements textarea
+- [x] T-009.7: Build `step-summary.tsx` — review all selections with edit links per section, "Generate My Itinerary" gold CTA
 
 ### T-010: Form Steps — Local Traveler Adaptations
-- [ ] T-010.1: Adapt `step-duration.tsx` — promote 1/2/3 day options, Weekend/Long Weekend quick selects
-- [ ] T-010.2: Adapt `step-budget.tsx` — LKR slider (5,000-50,000/day) instead of USD tier cards
-- [ ] T-010.3: Adapt `step-interests.tsx` — add "Kid-friendly" and "Romantic" options
-- [ ] T-010.4: Adapt `step-details.tsx` — starting city as searchable dropdown of Sri Lankan cities
-- [ ] T-010.5: Validate all form steps with Zod schema, show inline errors
+- [x] T-010.1: Adapt `step-duration.tsx` — promote 1/2/3 day options, Weekend/Long Weekend quick selects
+- [x] T-010.2: Adapt `step-budget.tsx` — LKR slider (5,000-50,000/day) instead of USD tier cards
+- [x] T-010.3: Adapt `step-interests.tsx` — add "Kid-friendly" and "Romantic" options
+- [x] T-010.4: Adapt `step-details.tsx` — starting city as searchable dropdown of Sri Lankan cities
+- [x] T-010.5: Validate all form steps with Zod schema, show inline errors
 
 ### T-011: Form Submission
-- [ ] T-011.1: On form submit, save preferences to state and redirect to generation loading screen
-- [ ] T-011.2: Create `/plan` page at `src/app/plan/page.tsx` mounting the onboarding form
+- [x] T-011.1: On form submit, save preferences to state and redirect to generation loading screen
+- [x] T-011.2: Create `/plan` page at `src/app/plan/page.tsx` mounting the onboarding form
 - [ ] T-011.3: Test complete flow: form → validation → submission for both foreign and local paths
 
 ---
