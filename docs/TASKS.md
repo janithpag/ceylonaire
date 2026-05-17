@@ -23,7 +23,7 @@
 - [ ] T-001.10: Create initial `README.md` with setup instructions
 
 ### T-002: Design System & Brand Foundation
-- [ ] T-002.1: Define CSS custom properties in `globals.css` for brand colors: emerald (#0A4D3C), emerald-light (#0E6B53), gold (#C9964C), gold-light (#E8C48A), cream (#FDF8F0), dark (#1A1A1A)
+- [ ] T-002.1: Define CSS custom properties in `globals.css` for brand colors (layla.ai-inspired lite palette): primary (#2A182E), primary-light (#4A2E54), lavender (#CDB3FF), lavender-light (#E8DCFF), surface (#EAE8EA), background (#FFFFFF), dark (#1A1A1A)
 - [ ] T-002.2: Configure Google Fonts: Playfair Display (headings), DM Sans (body) in `layout.tsx`
 - [ ] T-002.3: Create `cn()` utility function (from shadcn pattern) at `src/lib/utils.ts`
 - [ ] T-002.4: Build root `layout.tsx` with: html lang, font variables, metadata defaults, viewport config
