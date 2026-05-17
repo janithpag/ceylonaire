@@ -30,17 +30,17 @@
 - [x] T-002.5: Create favicon and basic OG image placeholder in `public/`
 
 ### T-003: Supabase Setup
-- [ ] T-003.1: Create Supabase project (dev environment)
-- [ ] T-003.2: Write initial migration `001_initial_schema.sql` with all tables: profiles, itineraries, chat_messages, prebuilt_itineraries, analytics_events (see SRS Section 7.1)
-- [ ] T-003.3: Write all RLS policies as defined in SRS Section 7.1
-- [ ] T-003.4: Write the `handle_new_user()` trigger function for auto-profile creation
-- [ ] T-003.5: Run migration against dev Supabase project and verify schema
-- [ ] T-003.6: Create `src/lib/supabase/client.ts` — browser Supabase client using `@supabase/ssr`
-- [ ] T-003.7: Create `src/lib/supabase/server.ts` — server-side Supabase client for API routes
-- [ ] T-003.8: Create `src/lib/supabase/admin.ts` — service role client for admin operations
-- [ ] T-003.9: Create `src/lib/supabase/middleware.ts` — Next.js middleware for auth session refresh
-- [ ] T-003.10: Generate TypeScript types from Supabase schema → `src/lib/types/database.ts`
-- [ ] T-003.11: Add Supabase middleware to `src/middleware.ts`
+- [x] T-003.1: Create Supabase project (dev environment)
+- [x] T-003.2: Write initial migration `001_initial_schema.sql` with all tables: profiles, itineraries, chat_messages, prebuilt_itineraries, analytics_events (see SRS Section 7.1)
+- [x] T-003.3: Write all RLS policies as defined in SRS Section 7.1
+- [x] T-003.4: Write the `handle_new_user()` trigger function for auto-profile creation
+- [x] T-003.5: Run migration against dev Supabase project and verify schema
+- [x] T-003.6: Create `src/lib/supabase/client.ts` — browser Supabase client using `@supabase/ssr`
+- [x] T-003.7: Create `src/lib/supabase/server.ts` — server-side Supabase client for API routes
+- [x] T-003.8: Create `src/lib/supabase/admin.ts` — service role client for admin operations
+- [x] T-003.9: Create `src/lib/supabase/middleware.ts` — Next.js middleware for auth session refresh
+- [x] T-003.10: Generate TypeScript types from Supabase schema → `src/lib/types/database.ts`
+- [x] T-003.11: Add Supabase middleware to `src/middleware.ts`
 
 ### T-004: External Service Setup
 - [ ] T-004.1: Create Upstash Redis instance, add credentials to `.env.local`
