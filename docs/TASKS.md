@@ -43,16 +43,16 @@
 - [x] T-003.11: Add Supabase middleware to `src/middleware.ts`
 
 ### T-004: External Service Setup
-- [ ] T-004.1: Create Upstash Redis instance, add credentials to `.env.local`
-- [ ] T-004.2: Create `src/lib/cache/redis.ts` with Upstash client, get/set/del helpers with TTL
-- [ ] T-004.3: Create Mapbox account, generate access token (domain-restricted), add to `.env.local`
-- [ ] T-004.4: Set up Google Cloud project, enable Places API (New) + Directions API, create API keys (IP-restricted)
-- [ ] T-004.5: Add OpenAI API key to `.env.local`
-- [ ] T-004.6: Add Anthropic API key to `.env.local`
-- [ ] T-004.7: Sign up for ExchangeRate API, add key to `.env.local`
-- [ ] T-004.8: Apply to Booking.com Affiliate Partner Programme
-- [ ] T-004.9: Apply to Agoda Partner Program
-- [ ] T-004.10: Create PostHog project, add keys to `.env.local`
+- [x] T-004.1: Create Upstash Redis instance, add credentials to `.env.local`
+- [x] T-004.2: Create `src/lib/cache/redis.ts` with Upstash client, get/set/del helpers with TTL
+- [x] T-004.3: Create Mapbox account, generate access token (domain-restricted), add to `.env.local`
+- [x] T-004.4: Set up Google Cloud project, enable Places API (New) + Directions API, create API keys (IP-restricted)
+- [x] T-004.5: Add OpenAI API key to `.env.local`
+- [x] T-004.6: Add Anthropic API key to `.env.local`
+- [x] T-004.7: Sign up for ExchangeRate API, add key to `.env.local`
+- [x] T-004.8: Apply to Booking.com Affiliate Partner Programme
+- [x] T-004.9: Apply to Agoda Partner Program
+- [x] T-004.10: Create PostHog project, add keys to `.env.local`
 
 ---
 
