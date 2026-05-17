@@ -1,66 +1,41 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import type { Metadata } from "next"
+import { Hero } from "@/components/landing/hero"
+import { HowItWorks } from "@/components/landing/how-it-works"
+import { FeaturedItineraries } from "@/components/landing/featured-itineraries"
+import { Stats } from "@/components/landing/stats"
+import { Testimonials } from "@/components/landing/testimonials"
+import { FinalCTA } from "@/components/landing/final-cta"
+import { Footer } from "@/components/shared/footer"
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Ceylonaire — AI-Powered Sri Lanka Travel Itineraries",
+  description:
+    "Plan your perfect Sri Lanka trip with Ceyla, your AI travel companion. Get a personalised day-by-day itinerary for beaches, wildlife, culture, and more — in seconds.",
+  openGraph: {
+    title: "Ceylonaire — AI-Powered Sri Lanka Travel Itineraries",
+    description:
+      "Plan your perfect Sri Lanka trip with Ceyla, your AI travel companion. Personalised itineraries in seconds.",
+    url: "https://ceylonaire.com",
+    images: [{ url: "/og/og-default.svg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ceylonaire — AI-Powered Sri Lanka Travel Itineraries",
+    description:
+      "Plan your perfect Sri Lanka trip with Ceyla, your AI travel companion.",
+  },
+}
+
+export default function HomePage() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+    <main>
+      <Hero />
+      <HowItWorks />
+      <FeaturedItineraries />
+      <Stats />
+      <Testimonials />
+      <FinalCTA />
+      <Footer />
+    </main>
+  )
 }

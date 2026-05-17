@@ -12,33 +12,13 @@
   --color-brand-lavender-light: #E8DCFF;
   --color-brand-surface: #EAE8EA;
   --color-brand-dark: #1A1A1A;
+  --color-brand-amber: #D4A853;
+  --color-brand-amber-light: #E8C77B;
 
   --font-heading: var(--font-playfair), Georgia, serif;
   --font-body: var(--font-dm-sans), system-ui, sans-serif;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  font-family: var(--font-body);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
 @theme inline {
   --font-heading: var(--font-sans);
@@ -164,11 +144,88 @@ a {
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-brand-surface text-foreground;
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   html {
     @apply font-sans;
   }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* ── Scroll-reveal & entrance animations ── */
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease both;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.7s ease-out both;
+}
+
+.animation-delay-100 { animation-delay: 100ms; }
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-300 { animation-delay: 300ms; }
+.animation-delay-400 { animation-delay: 400ms; }
+.animation-delay-500 { animation-delay: 500ms; }
+
+/* ── Hero gradient overlay ── */
+
+.hero-gradient-overlay {
+  background:
+    linear-gradient(
+      to right,
+      rgba(42, 24, 46, 0.92) 0%,
+      rgba(42, 24, 46, 0.7) 45%,
+      rgba(42, 24, 46, 0.4) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgba(42, 24, 46, 0.5) 0%,
+      transparent 40%
+    );
 }

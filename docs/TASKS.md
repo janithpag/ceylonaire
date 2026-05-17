@@ -59,26 +59,26 @@
 ## Phase 2: Landing Page (Day 2)
 
 ### T-005: Site Header
-- [ ] T-005.1: Build `src/components/shared/header.tsx` — logo, nav links (Explore, Plan a Trip), currency toggle, Sign In button
-- [ ] T-005.2: Header transparent on landing page hero, solid emerald on all other pages
-- [ ] T-005.3: Mobile hamburger menu with slide-out drawer (using shadcn Sheet)
-- [ ] T-005.4: Integrate `currency-toggle.tsx` in header (dropdown with USD, EUR, GBP, AUD, INR, LKR)
+- [x] T-005.1: Build `src/components/shared/header.tsx` — logo, nav links (Explore, Plan a Trip), currency toggle, Sign In button
+- [x] T-005.2: Header transparent on landing page hero, solid emerald on all other pages
+- [x] T-005.3: Mobile hamburger menu with slide-out drawer (using shadcn Sheet)
+- [x] T-005.4: Integrate `currency-toggle.tsx` in header (dropdown with USD, EUR, GBP, AUD, INR, LKR)
 
 ### T-006: Landing Page Hero
-- [ ] T-006.1: Build `src/components/landing/hero.tsx` with full-viewport emerald gradient background
-- [ ] T-006.2: Add animated decorative elements (circles, gradients) for visual depth
-- [ ] T-006.3: Headline: "Discover Sri Lanka Like a Local" with gold accent
-- [ ] T-006.4: Subheadline describing Ceyla and the value proposition
-- [ ] T-006.5: Two CTAs: "Plan My Trip" (gold, primary) → /plan, "See Sample Itinerary" (outline) → /explore/7-day-classic
-- [ ] T-006.6: Fade-in animation on page load (CSS transitions, no heavy library)
-- [ ] T-006.7: Fully responsive: stacked layout on mobile, generous spacing on desktop
+- [x] T-006.1: Build `src/components/landing/hero.tsx` with full-viewport emerald gradient background
+- [x] T-006.2: Add animated decorative elements (circles, gradients) for visual depth
+- [x] T-006.3: Headline: "Discover Sri Lanka Like a Local" with gold accent
+- [x] T-006.4: Subheadline describing Ceyla and the value proposition
+- [x] T-006.5: Two CTAs: "Plan My Trip" (gold, primary) → /plan, "See Sample Itinerary" (outline) → /explore/7-day-classic
+- [x] T-006.6: Fade-in animation on page load (CSS transitions, no heavy library)
+- [x] T-006.7: Fully responsive: stacked layout on mobile, generous spacing on desktop
 
 ### T-007: Landing Page Sections
-- [ ] T-007.1: Build `how-it-works.tsx` — 3-step visual flow: Preferences → Ceyla Plans → You Explore
-- [ ] T-007.2: Build `featured-itineraries.tsx` — 3 itinerary cards linking to /explore pages
-- [ ] T-007.3: Build `src/components/shared/footer.tsx` — About, Privacy, Terms, social links, IntellaNext credit
-- [ ] T-007.4: Assemble landing page at `src/app/page.tsx` as SSG (static export)
-- [ ] T-007.5: Add metadata: title, description, OG tags, Twitter cards
+- [x] T-007.1: Build `how-it-works.tsx` — 3-step visual flow: Preferences → Ceyla Plans → You Explore
+- [x] T-007.2: Build `featured-itineraries.tsx` — 3 itinerary cards linking to /explore pages
+- [x] T-007.3: Build `src/components/shared/footer.tsx` — About, Privacy, Terms, social links, IntellaNext credit
+- [x] T-007.4: Assemble landing page at `src/app/page.tsx` as SSG (static export)
+- [x] T-007.5: Add metadata: title, description, OG tags, Twitter cards
 - [ ] T-007.6: Test responsive layout at 375px (mobile), 768px (tablet), 1280px (desktop)
 - [ ] T-007.7: Lighthouse audit: target LCP < 2.5s, CLS < 0.1
 
